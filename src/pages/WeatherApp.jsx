@@ -5,7 +5,7 @@ const WeatherApp = () => {
     const [city, setCity] = useState("");
     const [weather, setWeather] = useState(null);
     const [error, setError] = useState(null);
-    const KEY = import.meta.env.VITE__WEATHER_API_KEY
+    const KEY = import.meta.env.VITE_WEATHER_API_KEY
 
     const fetchWeather = async () => {
 
